@@ -29,3 +29,5 @@
 ~~~
 **工程编译器用g++，然后把src文件夹的编译器改为gcc,之后把ne10内的cpp文件的编译器改为g++。rt_thread的编译优化必须为O0**
 
+最后使用PS/asm_vector.s 替换掉工程硬件平台的asm_vector.s 一般情况下在/硬件平台路径/ps7_cortexa9_0/standalone_domain/bsp/ps7_cortexa9_0/libsrc/standalone_v8_1/src  
+fsbl的不要替换
