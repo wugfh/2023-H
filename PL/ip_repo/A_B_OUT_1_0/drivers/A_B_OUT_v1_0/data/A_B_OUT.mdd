@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER A_B_OUT
+	OPTION supported_peripherals = (A_B_OUT);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = A_B_OUT;
+END DRIVER
